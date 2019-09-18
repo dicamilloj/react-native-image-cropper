@@ -191,7 +191,6 @@ class ImageCrop extends Component {
 		        <GLImage
 		          source={{ uri: this.props.image}}
               imageSize={{height: this.state.imageHeight, width: this.state.imageWidth}}
-		          resizeMode="cover"
 		          zoom={this.state.zoom}
 		          center={[this.state.centerX, this.state.centerY]}
 		        />
