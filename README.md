@@ -15,6 +15,11 @@ or
 yarn add react-native-image-cropper
 ```
 
+## Update Podfile
+```
+pod 'RNGL', :path => '../node_modules/gl-react-native'
+```
+
 ## Requirements
 - `gl-react` You need to install gl-react. `npm i -S gl-react` 
 - `gl-react-native` You need to install gl-react-native and link the repo in RN. `npm i -S gl-react-native & rnpm link` 
